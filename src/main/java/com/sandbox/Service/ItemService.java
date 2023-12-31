@@ -10,4 +10,6 @@ public interface ItemService {
 	
 	ItemDto addNewItem(ItemDto itemDto);
 
+	List<ItemDto> findAllItems();
+
 }

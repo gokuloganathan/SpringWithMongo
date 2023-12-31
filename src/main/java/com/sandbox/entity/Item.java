@@ -23,4 +23,10 @@ public class Item {
 	
 	@Field
 	private int price;
+	
+	@Field
+	private int qty;
+	
+	@Field
+	private String category;
 }
